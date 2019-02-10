@@ -100,7 +100,7 @@ class App extends Component {
             <h2> Summary </h2> <br/>
             Number of rows: {this.state.rows.length} <br/>
             Number of columns: {this.state.columns.length} <br/>
-            Number of images uploaded: <br/> 
+            {/*Number of images uploaded: <br/>*/} 
             Longest label: {longest} <br/>
             Shortest label: {min} <br/>
           </div>
