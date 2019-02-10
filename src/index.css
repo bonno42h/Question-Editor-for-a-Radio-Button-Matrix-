@@ -1,5 +1,4 @@
 body {
-  margin: 0;
   padding: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
@@ -11,4 +10,80 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+input[type="text"] {
+  border: none;
+  background: transparent;
+  font-style: italic;
+  text-align: center;
+  width:75%;
+}
+
+input[type="radio"]{
+  width: 25px;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+table {
+  border: 2px solid gray;
+  margin-top: 5px;
+  text-align:center;
+}
+
+/* Split the screen in half */
+.split {
+  height: 100%;
+  width:50%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+}
+
+/* Control the left side */
+.left {
+  left: 0;
+  background-color: #bacff2;
+}
+
+/* Control the right side */
+.right {
+
+  right: 0;
+  background-color: #3ec174;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+button {
+  border: 1px outset blue;
+  background-color: lightgray;
+  border-radius: 6px; 
+  height:40px;
+  width:40px;
+  cursor:pointer;
+  margin-left: 1px;
+  margin-right: 1px;
+}
+
+button:hover {
+   background-color: blue;
+   color:white;
+}
+
+.rowText {
+    max-width: 85px;
+}
+
+.rowContainer{
+  min-width: 130px;
+  max-width: 200px;
 }
