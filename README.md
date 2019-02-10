@@ -2,6 +2,7 @@
 
 ###  A full stack MERN project
 Made as an interview assignment.
+Frontend link: https://mighty-wildwood-96155.herokuapp.com/ 
 
 ## Features involved:
 * Adding columns and rows;
