@@ -32,7 +32,7 @@ Frontend link: https://mighty-wildwood-96155.herokuapp.com/
 * Image thumbnail for each row and column with an ability to select images from the hard drive;
 * Row/Column animations add add and delete events;
 
-## To be improved:
+## Possible improvements:
 * Button to add a second table for a different category;
 * Storing the radio button values;
 * Viewing the created data as a table in a separate window;
